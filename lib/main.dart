@@ -1,16 +1,5 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:widget_1/Views/homeview.dart';
-import 'package:widget_1/Views/loginview.dart';
-import 'package:widget_1/Views/movieview.dart';
-import 'package:widget_1/Views/profilview.dart';
-import 'package:widget_1/Views/transaksiview.dart';
-// import 'stack_position.dart';
-// import 'package:widget_1/Views/profilview.dart';
-// import 'package:widget_1/Scaffold_widget.dart'; 
-
-
-
 
 void main() {
   runApp(const MyApp());
