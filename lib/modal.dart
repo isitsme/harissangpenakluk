@@ -5,13 +5,12 @@ class ModalWidget {
     showGeneralDialog(
       context: context,
       barrierDismissible:
-          false, // should dialog be dismissed when tapped outside
-      barrierLabel: "Modal", // label for barrier
+          false, 
+      barrierLabel: "PERPUSTAKAAN", 
       transitionDuration: Duration(
           milliseconds:
-              500), // how long it takes to popup dialog after button click
+              500), 
       pageBuilder: (_, __, ___) {
-        // your widget implementation
         return Scaffold(
           appBar: AppBar(
               backgroundColor: Colors.white,
